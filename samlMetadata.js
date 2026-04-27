@@ -815,7 +815,7 @@ export function buildServiceProviderPack({ env, identifier }) {
       metadataUrl: `https://${
         cfg.authDomain
       }/samlp/metadata?connection=${encodeURIComponent(cleanIdentifier)}`,
-      entityId: `urn:auth0:florence:${e}:${cleanIdentifier}`,
+      entityId: `urn:auth0:florencehc-${e}:${cleanIdentifier}`,
       acsUrl: `https://${
         cfg.authDomain
       }/login/callback?connection=${encodeURIComponent(cleanIdentifier)}`,
