@@ -688,7 +688,7 @@ document
         env: e.toUpperCase(),
         identifier,
         metadataUrl: `https://auth.example.com/saml/metadata?connection=${identifier}`,
-        entityId: `urn:auth:example:${e}:${identifier}`,
+        entityId: `urn:auth0:florencehc-${e}:${identifier}`,
         acsUrl: `https://auth.example.com/login/callback?connection=${identifier}`,
         landingPage: `https://app.example.com/login`,
         warnings: e === "uat" ? ["Non-production environment"] : [],
@@ -797,7 +797,7 @@ function renderWarnings(warnings = []) {
 }
 
 // ==================== INITIALIZATION ====================
-console.log("SSO Automation Toolkit by Dek Mohamud - Initialized");
+console.log("SSO Automation Toolkit by Dek - Initialized");
 
 // Security note: Theme preference is stored in localStorage
 // All other data is stored in runtime memory only
