@@ -11,7 +11,7 @@ metadata and presenting them in a copy-paste-ready format.
 
 ---
 
-## ✨ Features
+##  Features
 
 ### Identity Provider → Auth0 Configuration
 - Parse SAML metadata from:
@@ -44,7 +44,7 @@ metadata and presenting them in a copy-paste-ready format.
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 - **Node.js** (Express)
 - **JavaScript**
@@ -60,7 +60,7 @@ metadata and presenting them in a copy-paste-ready format.
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js v18 or newer
